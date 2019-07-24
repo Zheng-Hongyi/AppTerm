@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return 'asdff';
+//});
+//
+//Route::get('/about', function () {
+//    return '123456';
+//});
+
+Route::get('/symbol/private_protocol', 'SymbolController@privateProtocol');
+Route::get('/symbol/member_service_protocol', 'SymbolController@memberServiceProtocol');
+
+Route::get('/', 'StaticPagesController@home');
+Route::get('/help', 'StaticPagesController@help');
+Route::get('/about', 'StaticPagesController@about');
