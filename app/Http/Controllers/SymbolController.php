@@ -12,6 +12,6 @@ class SymbolController extends Controller
     }
 
     public function memberServiceProtocol() {
-        return '会员服务协议';
+        return view('symbol/memberServiceProtocol');
     }
 }
