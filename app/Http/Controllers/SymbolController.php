@@ -8,7 +8,7 @@ class SymbolController extends Controller
 {
     //
     public function privateProtocol() {
-        return '隐私条款';
+        return view('symbol/privateProtocol');
     }
 
     public function memberServiceProtocol() {
