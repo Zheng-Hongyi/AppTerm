@@ -21,3 +21,4 @@
 
 Route::get('/symbol/private_protocol', 'SymbolController@privateProtocol');
 Route::get('/symbol/member_service_protocol', 'SymbolController@memberServiceProtocol');
+Route::get('/symbol/me_five_private_protocol', 'SymbolController@meFiveServiceProtocol');

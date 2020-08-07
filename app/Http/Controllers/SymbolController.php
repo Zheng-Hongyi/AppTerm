@@ -14,4 +14,8 @@ class SymbolController extends Controller
     public function memberServiceProtocol() {
         return view('symbol/memberServiceProtocol');
     }
+
+    public function meFiveServiceProtocol() {
+        return view('symbol/meFiveProtocol');
+    }
 }
